@@ -18,14 +18,14 @@ public class Cooldown : MonoBehaviour {
     [SerializeField] private float _cooldown;
 
     private Image _abilitySprite; //This holds the Image component.
-	private Image _backSprite;
-	private CanvasGroup _faded; //This holds the CanvasGroup.
-	private bool _pressed; //This indicates if the button is pressed.
-	private RectTransform _size; //This holds the RectTransform component.
-	private bool _pressedClone; //This indicates if the button is pressed.
-	private int _reached;
+    private Image _backSprite;
+    private CanvasGroup _faded; //This holds the CanvasGroup.
+    private bool _pressed; //This indicates if the button is pressed.
+    private RectTransform _size; //This holds the RectTransform component.
+    private bool _pressedClone; //This indicates if the button is pressed.
+    private int _reached;
     private bool _cooldownUsed;
-	private float _startCooldown;
+    private float _startCooldown;
 
 	public bool GetCooldown
 	{

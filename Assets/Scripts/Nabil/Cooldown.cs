@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class Cooldown : MonoBehaviour {
 	
 
-	[SerializeField] private Sprite _unused; //This holds the image that signifies that the ability isn't used.
-	[SerializeField] private Sprite _used; //This holds the image that signifies that the ability is used.
-	[SerializeField] private float _fadeSpeed; //This determines the speed at which the image fades.
-	[SerializeField] private GameObject _cooldownBack; //This holds the image that is put behind the "used" image.
-	[SerializeField] private Vector3 _width; // Min = x, Start = y, Max = z
-	[SerializeField] private Vector3 _height; // Min = x, Start = y, Max = z
-	[SerializeField] private float _sizeSpeed;
+    [SerializeField] private Sprite _unused; //This holds the image that signifies that the ability isn't used.
+    [SerializeField] private Sprite _used; //This holds the image that signifies that the ability is used.
+    [SerializeField] private float _fadeSpeed; //This determines the speed at which the image fades.
+    [SerializeField] private GameObject _cooldownBack; //This holds the image that is put behind the "used" image.
+    [SerializeField] private Vector3 _width; // Min = x, Start = y, Max = z
+    [SerializeField] private Vector3 _height; // Min = x, Start = y, Max = z
+    [SerializeField] private float _sizeSpeed;
     [SerializeField] private int _abilityNumber;
     [SerializeField] private PlayerInput _abilities;
     [SerializeField] private float _cooldown;
